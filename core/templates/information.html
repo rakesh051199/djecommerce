@@ -1,0 +1,22 @@
+{% extends 'base1.html' %}
+{% block content %}
+<div class="card col-md-6">
+
+  <!-- Card image -->
+    <img class="card-img-top"  src="https://cdn1.storehippo.com/s/59687a56389229597e086f23/ms.blog_posts/5c8a2fa727718e4a422efdb4/5c8a2eaa1be4d170098b69e1.jpg" alt="Card image cap">
+
+  <!-- Card content -->
+     <div class="card-body">
+
+    <!-- Title -->
+     <h4 class="card-title"><a>Refund Accepted</a></h4>
+    <!-- Text -->
+         <p class="card-text">hey,<strong class="lead">{{req.Order.user}}</strong> your refund request was successfully accepted,we will provide more informatipn to the <strong class="lead">{{req.email}}</strong>
+        stay home stay safe!
+      </p>
+
+  </div>
+
+</div>
+</div>
+{% endblock %}
